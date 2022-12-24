@@ -1,0 +1,24 @@
+name: longevity_ui_task
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  sizer: ^2.0.15
+  smooth_page_indicator: ^1.0.0+2
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
